@@ -1,0 +1,410 @@
+*
+    box-sizing: border-box
+body
+    margin: 0
+.header
+    position: sticky
+    top: 0
+    z-index: 999
+    &_wrapper
+        padding: 0 100px
+        display: flex
+        height: 74px
+        background-color: #fff
+        width: 100%
+        justify-content: space-between
+        align-items: center
+    &_logo
+        margin-bottom: 9px
+        font-family: 'Roboto Slab'
+        display: flex
+        font-style: normal
+        font-weight: 400
+        font-size: 27px
+        line-height: 22px
+    &_menu
+        display: flex
+    &_link
+        margin-left: 35px
+        font-family: 'Roboto'
+        color: #222222
+        font-weight: 400
+        font-size: 15px
+        text-decoration: none
+        &:hover
+            color: #222222
+            text-decoration: underline   
+.promo
+    background: url(../img/1screen/bg.png) center (center / cover) no-repeat
+    padding: 70px 0
+    &_wrapper
+        display: flex
+        max-height: 480px
+        justify-content: center
+        flex-wrap: wrap
+        padding: 0 10px
+        gap: 20px
+    &_text-wrapper
+        max-width: 480px
+        display: flex
+        flex-direction: column
+    &_image
+        display: flex
+    &_header
+        padding-bottom: 21px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        line-height: 44px
+        font-size: 38px
+        color: #FFFFFF
+    &_descr
+        padding-bottom: 25px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 20px
+        line-height: 26px
+        color: #FFFFFF
+    &_btn
+        font-family: 'Roboto Slab'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 22px
+        text-align: center
+        color: #ffff
+        &:hover
+            cursor: pointer
+        width: 110px
+        height: 48px
+        background-color: #000000
+        box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12)
+        border: 0
+        border-radius: 3px
+    &_more
+        font-family: 'Roboto Slab'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 22px
+        color: #000000
+        padding-left: 37px
+.press
+    padding: 29px 0 38px 0
+    background-color: #3E5C50
+    .container
+        padding: 0 10px
+    &_label
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 15px
+        line-height: 22px
+        text-align: center
+        color: rgba(255, 255, 255, 0.31)
+    &_wrapper
+        display: flex
+        flex-direction: column
+        align-items: center
+    &_label-wrapper
+        display: flex
+        flex-direction: row
+        justify-content: center
+    &_company-wrapper
+        max-width: 940px
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+        gap: 30px
+        flex-wrap: wrap
+    &_img-wrapper
+        display: flex 
+        align-items: center
+.devices
+    padding: 70px 0
+    .container
+        margin: 0 auto
+        padding: 0 10px 
+    &_header-wrapper
+        display: flex
+        flex-direction: column
+        align-items: center
+    &_header
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 29px
+        line-height: 36px
+        color: #333333
+    &_subheader
+        margin-bottom: 68px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 19px
+        line-height: 40px
+        color: #333333
+    &_web-wrapper
+        display: flex
+        gap: 20px
+        justify-content: center
+        flex-wrap: wrap
+    &_web-text
+        width: 460px
+        margin-top: 30px
+    &_title
+        margin: 12px 0 16px 0
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 22px
+        line-height: 30px
+    &_descr
+        max-width: 355px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        line-height: 22px
+        color: #333333
+        font-size: 16px
+    &_phone-wrapper
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        gap: 20px
+    &_phone-text
+        width: 460px
+        margin-top: 44px
+    &_wrapper
+        display: flex
+        flex-direction: row
+        justify-content: center
+        gap: 20px
+        flex-wrap: wrap
+        margin: 70px 15px 0 15px
+    &_benefits-wrapper
+        width: 220px
+    &_benefits-descr
+        max-width: 197px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        line-height: 22px
+        color: #333333
+.pricing
+    background-color: #dde7ed
+    padding: 70px 0
+    &_header
+        display: flex
+        justify-content: center
+        margin-bottom: 10px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 29px
+        line-height: 36px
+        color: #333333        
+    &_subheader
+        display: flex
+        justify-content: center
+        margin-bottom: 68px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 19px
+        line-height: 22px
+        color: #333333
+    &_contact
+        margin-top: 20px
+        display: flex
+        justify-content: center
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 22px
+        color: #333333
+    a
+        margin-left: 4px
+        color: #489FD9
+        text-decoration: none
+    &_wrapper
+        padding: 0 10px
+        display: flex
+        justify-content: center
+        gap: 20px
+        flex-wrap: wrap
+        .plan_wrapper
+            position: relative
+            padding: 61px 0 17px 17px
+            width: 220px
+            height: 368px
+            background-color: #fff
+            border-radius: 3px
+    &_cost
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 19px
+        line-height: 27px
+        color: #489FD9
+    &_line 
+        max-width: 93px
+        hr
+            opacity: 0.25
+            color: #DBDBDB
+            background-color: #DBDBDB
+    &_descr
+        position: absolute
+        bottom: 78px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 34px
+        color: #C7C5C5
+    &_btn
+        position: absolute
+        bottom: 17px
+        font-family: 'Roboto Slab'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 22px
+        text-align: center
+        color: #FFFFFF
+        width: 186px
+        height: 42px
+        border: 0
+        background-color: #000000
+        border-radius: 3px
+        &:hover
+            cursor: pointer
+.people
+    max-height: 462px
+    padding: 70px 0 
+    &_header
+        text-align: center
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 29px
+        line-height: 36px
+        color: #333333
+    &_descr
+        margin-top: 45px
+        text-align: center
+        font-family: 'Roboto Slab'
+        font-style: normal
+        font-weight: 400
+        font-size: 25px
+        line-height: 31px
+        color: #333333
+    &_img
+        margin-top: 22px
+        display: flex
+        justify-content: center
+    &_name
+        margin-top: 12px
+        text-align: center
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 22px
+        color: #333333
+.more-press
+    min-height: 156px
+    background-color: #A1BFD4
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    padding: 53px 0
+    &_company-wrapper
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        gap: 40px
+.footer
+    padding: 41px 0 54px 0
+    min-height: 245px
+    background-color: #2B2C2E
+    .container
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+    &_list-wrapper
+        display: flex
+        flex-direction: row
+        gap: 75px
+        margin: 0 5px
+    &_title-wrapper
+        display: flex
+        flex-direction: column
+    &_signup-wrapper
+        display: flex
+        flex-direction: column
+        padding-bottom: 10px
+        margin: 0 5px
+    &_header
+        margin-bottom: 25px
+        font-family: 'Roboto Slab'
+        font-style: normal
+        font-weight: 400
+        font-size: 27px
+        line-height: 22px
+        color: #E6EAED
+    &_descr
+        margin-bottom: 12px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 15px
+        line-height: 22px
+        color: #939596
+    &_progress
+        margin-bottom: 24px
+        width: 322px
+        height: 40px
+        background: linear-gradient(to right, #E8E8E8 60%, #5F6166 40%)
+        border-radius: 3px
+    &_socnet-wrapper
+        svg
+            margin-right: 11px
+    &_title
+        margin-bottom: 14px
+        font-family: 'Roboto Condensed'
+        font-style: normal
+        font-weight: 400
+        font-size: 17px
+        line-height: 24px
+        text-transform: uppercase
+        color: #E4E8EB
+    a
+        margin-bottom: 3px
+        display: flex
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 15px
+        line-height: 22px
+        color: #939596
+        text-decoration: none
+        &:hover
+            text-decoration: underline
+.copyright
+    background-color: #1C1D1F
+    height: 60px
+    display: flex
+    align-items: center
+    .container
+        margin: 0 20px
+    &_text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 13px
+        line-height: 22px
+        color: #939596
